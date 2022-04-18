@@ -1,0 +1,6 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(”“î€
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òüÏúÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÕŞşÿÿÿÿ8éø‰Úƒ0
+^
+java:S1226"AIntroduce a new variable instead of reusing the parameter "args".(–ù¬é8–ú†Úƒ0

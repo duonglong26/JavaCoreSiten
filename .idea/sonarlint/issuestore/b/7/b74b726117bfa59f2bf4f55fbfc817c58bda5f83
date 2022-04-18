@@ -1,0 +1,6 @@
+
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(İÏ­8œ†“Øƒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§ş±8±Æ”Øƒ0
+c
+java:S1226"AIntroduce a new variable instead of reusing the parameter "args".(Ê‡ıñûÿÿÿÿ8£–Øƒ0
