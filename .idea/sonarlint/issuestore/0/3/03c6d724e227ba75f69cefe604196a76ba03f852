@@ -1,0 +1,22 @@
+
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ˆÇ“
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤ª´®ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÄé‡üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’¸†µøÿÿÿÿ
+@
+java:S2185"%Remove this silly call to "Math.ceil"(’¸†µøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Í•àŠıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ıÆ¹á
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢İ±Œúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú†µ¡
+M	java:S106"9Replace this use of System.out or System.err by a logger.(êş©]
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íŸîŒ8á™óÚƒ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(úâË,8ËóÚƒ0
+@
+java:S2185"$Remove this silly call to "Math.exp"(úâË,8ë†õÚƒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŞºÇâ8’ôõÚƒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Š˜Û¼ÿÿÿÿÿ8«¥øÚƒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‘£›†8õûúÚƒ0
+h
+java:S1192"FDefine a constant instead of duplicating this literal ") is " 3 times.(¢İ±Œúÿÿÿÿ8â™óÚƒ0
