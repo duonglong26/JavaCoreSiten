@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«òûí
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÛŒäÈ8¢ı·şƒ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ç÷›y8Æ¹şƒ0
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(éşÀ8Âºşƒ0
+k
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(µ¥Î™øÿÿÿÿ

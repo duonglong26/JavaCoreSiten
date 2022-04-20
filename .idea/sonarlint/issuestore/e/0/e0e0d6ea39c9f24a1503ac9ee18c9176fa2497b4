@@ -1,0 +1,12 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(¹¥Û÷
+G
+java:S1602",Remove useless curly braces around statement(¶ÊˆÚÿÿÿÿÿ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(äÄãò
+V	java:S125+"<This block of commented-out lines of code should be removed.(¶‘Îšúÿÿÿÿ
+F
+java:S22015"+The return value of "collect" must be used.(ü²ØÏùÿÿÿÿ
+B
+java:S1602L",Remove useless curly braces around statement(ŸØÉã
+>
+java:S1604#"(Make this anonymous inner class a lambda(ï›ññ

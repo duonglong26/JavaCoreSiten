@@ -1,0 +1,11 @@
+
+_
+java:S1659"IDeclare "counterDigit" and all following declarations on a separate line.(â÷Ó†
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(¦„±ß
+Z	java:S106("9Replace this use of System.out or System.err by a logger.( ·ãüÿÿÿÿ8é»èƒ0
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(‹Ï®ğ8Æ†½èƒ0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(À¶«Íüÿÿÿÿ8Æ†½èƒ0
+h
+java:S1192'"KDefine a constant instead of duplicating this literal "There are " 3 times.(¦„±ß8Í¼èƒ0
+\
+java:S1226&"AIntroduce a new variable instead of reusing the parameter "args".(æ®Šóıÿÿÿÿ

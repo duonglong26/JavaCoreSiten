@@ -1,0 +1,11 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(•†Âf
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(œÁÃôûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(ŒÙ¸çÿÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(‰î»‰üÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(›’Ëúÿÿÿÿ
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ
+l	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK

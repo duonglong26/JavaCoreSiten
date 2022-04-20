@@ -1,0 +1,9 @@
+
+t
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(÷øÜýùÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ¤¶2
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(©«Ï“
+\
+java:S1226	"AIntroduce a new variable instead of reusing the parameter "args".(åÁ²©ûÿÿÿÿ

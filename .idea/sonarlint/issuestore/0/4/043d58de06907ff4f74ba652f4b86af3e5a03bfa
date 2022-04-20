@@ -1,0 +1,10 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Èÿ´õ
+B
+java:S1602",Remove useless curly braces around statement(Ÿ„­´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÖëÙé
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(çâîÀıÿÿÿÿ
+\
+java:S1226
+"AIntroduce a new variable instead of reusing the parameter "args".(åÁ²©ûÿÿÿÿ

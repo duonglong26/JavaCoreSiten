@@ -1,0 +1,14 @@
+
+i
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(•û
+n
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(Ì©ÖÄÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…¡“–ûÿÿÿÿ
+G
+java:S1602",Remove useless curly braces around statement(–•Ü™şÿÿÿÿ
+[
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(–•Ü™şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚é€Şûÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÁĞ´²
+c
+java:S3655&"FCall "max.isPresent()" or "!max.isEmpty()" before accessing the value.(ÁĞ´²8§ïèüƒ0

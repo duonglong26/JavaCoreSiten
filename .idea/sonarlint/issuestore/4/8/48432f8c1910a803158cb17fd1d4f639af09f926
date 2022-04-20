@@ -1,0 +1,7 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²ÏË
+>
+java:S1604"(Make this anonymous inner class a lambda(€¼˜µ
+\
+java:S1226
+"AIntroduce a new variable instead of reusing the parameter "args".(„Îó½ùÿÿÿÿ
