@@ -1,0 +1,10 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(áı»š
+<
+java:S1860"&Synchronize on a new "Object" instead.(‰…ßÎ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÚÜ±Ì
+Y
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(æú¶ı
+S	java:S106"9Replace this use of System.out or System.err by a logger.(»Íğ¬ùÿÿÿÿ

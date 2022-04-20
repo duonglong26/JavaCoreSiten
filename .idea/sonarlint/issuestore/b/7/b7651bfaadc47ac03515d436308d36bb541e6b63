@@ -1,0 +1,7 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "sample".(‘ÑªÝûÿÿÿÿ8Ìàž¥„0
+M
+java:S1481"+Remove this unused "sample" local variable.(‘ÑªÝûÿÿÿÿ8Ïàž¥„0
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8Â€¡¥„0

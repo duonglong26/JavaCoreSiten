@@ -1,0 +1,1076 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Học các kiến thức về công nghệ và ngoại ngữ với chi phí nhỏ nhất và chất lượng tốt nhất">
+<meta name="description" content="Học các kiến thức về công nghệ và ngoại ngữ với chi phí nhỏ nhất và chất lượng tốt nhất">  
+
+<title>Tin học ngoại ngữ cooc.vn</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<style type="text/css">
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+	.top{
+		height: 140%;
+	}
+	
+	.popular ul li {
+		display: flex;
+    margin-right: 12px;
+    white-space: nowrap;
+		float: left;
+	}
+	.popular ul li a{
+		background-color: transparent;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 1px 12px 0;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 4;
+		text-decoration: none;
+}
+	}
+	.gioithieu{
+		    margin-top: 15%;
+    margin-left: 10%;
+	}
+
+
+
+
+
+
+
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #b54a65;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+
+
+<script type="text/javascript">
+//	window.addEventListener("resize", function() {
+//		"use strict"; window.location.reload(); 
+//	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+        
+
+    	/////// Prevent closing from click inside dropdown
+		document.querySelectorAll('.dropdown-menu').forEach(function(element){
+			element.addEventListener('click', function (e) {
+			  e.stopPropagation();
+			});
+		})
+
+
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth < 992) {
+
+			// close all inner dropdowns when parent is closed
+			document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+				everydropdown.addEventListener('hidden.bs.dropdown', function () {
+					// after dropdown is hidden, then find all submenus
+					  this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+					  	// hide every submenu as well
+					  	everysubmenu.style.display = 'none';
+					  });
+				})
+			});
+			
+			document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+				element.addEventListener('click', function (e) {
+		
+				  	let nextEl = this.nextElementSibling;
+				  	if(nextEl && nextEl.classList.contains('submenu')) {	
+				  		// prevent opening link if link needs to open dropdown
+				  		e.preventDefault();
+				  		console.log(nextEl);
+				  		if(nextEl.style.display == 'block'){
+				  			nextEl.style.display = 'none';
+				  		} else {
+				  			nextEl.style.display = 'block';
+				  		}
+
+				  	}
+				});
+			})
+		}
+		// end if innerWidth
+
+	}); 
+	// DOMContentLoaded  end
+</script>
+
+ 
+</head>
+<body>
+
+<div class="topnav responsive" id="myTopnav">
+
+<a class="navbar-brand" href="#" style="
+">Hãy cùng COOC trưởng thành</a>
+  <a href="www.facebook.com">Cách tạo blog cá nhân</a>
+  <a href="#news">Cách sử dụng facebook để học tập</a>
+  <a href="#contact">Luyện nói tiếng Anh mỗi ngày</a>
+  <div class="dropdown">
+    <button class="dropbtn">Mua sắm sản phẩm tiếng Anh<i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#about">Talk about me</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Học các kiến thức về công nghệ và ngoại ngữ với chi phí nhỏ nhất và chất lượng tốt nhất">
+<meta name="description" content="Học các kiến thức về công nghệ và ngoại ngữ với chi phí nhỏ nhất và chất lượng tốt nhất">  
+
+<title>Trung tâm tin học và ngoại ngữ</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<style type="text/css">
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+	.top{
+		height: 140%;
+	}
+	
+	.popular ul li {
+		display: flex;
+    margin-right: 12px;
+    white-space: nowrap;
+		float: left;
+	}
+	.popular ul li a{
+		background-color: transparent;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 1px 12px 0;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 4;
+		text-decoration: none;
+}
+	}
+	.gioithieu{
+		    margin-top: 15%;
+    margin-left: 10%;
+	}
+
+
+
+
+
+
+
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #b54a65;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+
+
+<script type="text/javascript">
+//	window.addEventListener("resize", function() {
+//		"use strict"; window.location.reload(); 
+//	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+        
+
+    	/////// Prevent closing from click inside dropdown
+		document.querySelectorAll('.dropdown-menu').forEach(function(element){
+			element.addEventListener('click', function (e) {
+			  e.stopPropagation();
+			});
+		})
+
+
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth < 992) {
+
+			// close all inner dropdowns when parent is closed
+			document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+				everydropdown.addEventListener('hidden.bs.dropdown', function () {
+					// after dropdown is hidden, then find all submenus
+					  this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+					  	// hide every submenu as well
+					  	everysubmenu.style.display = 'none';
+					  });
+				})
+			});
+			
+			document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+				element.addEventListener('click', function (e) {
+		
+				  	let nextEl = this.nextElementSibling;
+				  	if(nextEl && nextEl.classList.contains('submenu')) {	
+				  		// prevent opening link if link needs to open dropdown
+				  		e.preventDefault();
+				  		console.log(nextEl);
+				  		if(nextEl.style.display == 'block'){
+				  			nextEl.style.display = 'none';
+				  		} else {
+				  			nextEl.style.display = 'block';
+				  		}
+
+				  	}
+				});
+			})
+		}
+		// end if innerWidth
+
+	}); 
+	// DOMContentLoaded  end
+</script>
+
+ 
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container"><div class="row"><div class="col-md-4">
+		<div style="
+		"><br>
+	
+	</div><img src="image\12345.gif" style="
+		width: 100%;
+		border: 1px solid yellow;
+		height: 315px;
+	"></div>
+		<div class="col-md-6">
+		<div style="
+		"><br>
+	
+	</div><iframe width="560" height="315" src="https://www.youtube.com/embed/ujk3aySA6Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><div class="col-md-2">
+		<div style="
+		"><br>
+	
+	</div><img src="image\huongdan.png" style="
+		width: 100%;
+		border: 1px solid yellow;
+		height: 315px;
+        "></div></div>
+</div>
+	<div style="width:100%;background-color: #ffffff;">
+    <div class="container" style="">
+    <div class="row" style="
+    margin-top: 30px;
+    padding-top: 30px;
+">
+<img src="image\3.png" style="
+    width: 50%;
+"><div style="
+    margin-top: 30px;
+"><img src="D:\ĐỀ TÀI TỐT NGHIỆP\Code 2\cooc\image\4.png" style="
+    width: 50%;
+    padding-bottom: 20px;
+"></div>
+
+<div style="
+    display: flex;
+    padding-bottom: 7px;
+">
+
+<div style="
+    width: 25px;
+"><img src="image\icon1.png" style="width: 25px;">
+</div>
+<div style="
+    padding-left: 5px;
+    padding-top: 3px;
+">Phim chuyên về giao tiếp trong cuộc sống hàng ngày</div>
+    
+</div><div style="
+    display: flex;
+    padding-bottom: 7px;
+">
+
+<div style="
+    width: 25px;
+"><img src="image\icon1.png" style="width: 25px;">
+</div>
+<div style="
+    padding-left: 5px;
+    padding-top: 3px;
+">Học tiếng Anh với phim song ngữ nên học tương đối dễ dàng</div>
+    
+</div><div style="
+    display: flex;
+    padding-bottom: 7px;
+">
+
+<div style="
+    width: 25px;
+"><img src="image\icon1.png" style="width: 25px;">
+</div>
+<div style="
+    padding-left: 5px;
+    padding-top: 3px;
+">Các câu tiếng Anh giao tiếp được lặp đi lặp lại nên rất dễ nhớ</div>
+    
+</div><div style="
+    display: flex;
+    padding-bottom: 7px;
+">
+
+<div style="
+    width: 25px;
+"><img src="image\icon1.png" style="width: 25px;">
+</div>
+<div style="
+    padding-left: 5px;
+    padding-top: 3px;
+">Cốt chuyện thú vị hấp dẫn và hài hước</div>
+    
+</div><div style="
+    display: flex;
+    padding-bottom: 7px;
+">
+
+<div style="
+    width: 25px;
+"><img src="image\icon1.png" style="width: 25px;">
+</div>
+<div style="
+    padding-left: 5px;
+    padding-top: 3px;
+">Học mọi lúc mọi nơi trên điện thoại hoặc ipad hoặc máy tính pc</div>
+    
+</div>
+
+
+</div>
+    
+</div>
+
+    
+    
+    
+    
+    
+
+</div>
+
+
+
+
+
+<div class="container" style="
+"><img src="image\icon1.png" style="width: 25px;"><div class="row" style="
+    margin-top: 30px;
+"><div class="col-md-6" style="
+    color: black;
+    "><div style="
+    padding-bottom: 10px;
+">Nguyên lý của nhớ từ vựng là gì ?</div><div style="
+    padding-bottom: 10px;
+">- Nguyên lý của nhớ từ vựng là : bạn xem đi xem 
+lại mỗi khi quên tư vựng lặp lại 10 lần là bạn sẽ nhớ 
+từ đó vĩnh viễn</div>
+<div style="
+    padding-bottom: 10px;
+">- Ở đây chúng tôi có để từ vựng kèm theo âm thanh 
+của từ đó giúp các bạn nghe lại các phát âm của từ đó 
+mỗ khi quên</div>
+<div>- Điểm khác biệt là cách học từ vựng này học bằng 
+âm thanh và học bằng hình ảnh và theo cụm từ</div>
+</div>
+
+
+<div class="col-md-6">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/WGi2OFptyIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div><img src="image\7.png" style="
+    width: 50%;
+    margin-top: 30px;
+"><div class="row" style="
+    margin-top: 30px;
+">
+
+
+<div class="col-md-6">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Y72_Nw4YSIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+<div class="col-md-6" style="
+    color: black;
+    "><div style="
+    padding-bottom: 10px;
+">Nguyên lý của nhớ từ vựng là gì ?</div><div style="
+    padding-bottom: 10px;
+">- Nguyên lý của nhớ từ vựng là : bạn xem đi xem 
+lại mỗi khi quên tư vựng lặp lại 10 lần là bạn sẽ nhớ 
+từ đó vĩnh viễn</div>
+<div style="
+    padding-bottom: 10px;
+">- Ở đây chúng tôi có để từ vựng kèm theo âm thanh 
+của từ đó giúp các bạn nghe lại các phát âm của từ đó 
+mỗ khi quên</div>
+<div>- Điểm khác biệt là cách học từ vựng này học bằng 
+âm thanh và học bằng hình ảnh và theo cụm từ</div>
+</div></div>
+<div class="row" style="
+    margin-top: 30px;
+"><div class="col-md-4" style="
+    color: black;
+    "><div style="width:20px; height:5px; background: yellow"></div>
+<div style="
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+">Điều Này Trường Không Dạy Bạn</div>
+
+<div style="
+    width: 70%;
+    margin-left: 30px;
+"><div>Học tiếng Anh với 
+phim Friends bạn sẽ
+biết nhiều về văn 
+hóa của người Mỹ.
+Rất thích hợp với
+các bạn có ý định
+đi du học hoặc 
+muốn sang Mỹ làm
+việc</div></div>
+</div>
+
+
+<div class="col-md-8">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/kmxoPFPvveQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div></div>
+
+
+
+<div class="row" style="
+    margin-top: 40px;
+    background-color: yellow;
+">
+		
+
+
+
+
+<div class="col-md-6" style="
+    font-size: 20px;
+">
+	
+    <div style="
+    padding-top: 50px;
+">Bộ luyện phát âm giọng Mỹ
+giáo viên bản xứ</div>
+
+
+<div style="
+    padding-top: 20px;
+">- Mới bắt đầu học tiếng Anh điều đầu tiên
+bạn phải học phát âm chuẩn trước. Bởi khi
+phát âm chuẩn rồi bạn sẽ nghe tốt hơn, nói
+và đọc chuẩn hơn</div>
+
+<div style="
+    padding-top: 20px;
+">- Đây là bộ rất hay và dễ học được giảng dạy 
+chi tiết và đầy đủ nhất</div>
+</div>
+<div class="col-md-6" style="
+    text-align: center;
+">
+	<img src="image\22.png" style="width: 60%;"></div></div><div style="
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+">
+
+    <div style="font-size: 20px;padding: 10px;">CÁC HỌC VIÊN TIÊU BIỂU</div></div>
+<div class="row" style="
+    margin-top: 30px;
+">
+
+
+<div class="col-md-3" style="
+    text-align: center;
+">
+    <img src="https://1.bp.blogspot.com/-RD0yPf-L2Fo/XmmaLYbT9vI/AAAAAAAAXaA/LQXcRqcNk5UTT-n_-bRlwIWoBOjfbYUYACLcBGAsYHQ/s1600/Anh-gai-dep-facebook-lam-anh-dai-dien%2B%25285%2529.jpg" style="
+    width: 50%;
+    border-radius: 40px;
+">
+    <div style="
+    margin-top: 2;
+"> Trami Nguyen</div>
+		</div><div class="col-md-3" style="
+    text-align: center;
+">
+    <img src="https://scr.vn/wp-content/uploads/2020/08/%E1%BA%A2nh-g%C3%A1i-d%E1%BB%85-th%C6%B0%C6%A1ng-l%C3%A0m-h%C3%ACnh-%C4%91%E1%BA%A1i-di%E1%BB%87n-xinh-x%E1%BA%AFn.jpg" style="
+    width: 50%;
+    border-radius: 40px;
+">
+    <div style="
+    margin-top: 2;
+">Vicky Nu</div>
+		</div><div class="col-md-3" style="
+    text-align: center;
+">
+    <img src="https://anhdep123.com/wp-content/uploads/2021/02/anh-gai-dep-lam-avatar.jpg" style="
+    width: 50%;
+    border-radius: 40px;
+">
+    <div style="
+    margin-top: 2;
+">Soan Vy</div>
+		</div><div class="col-md-3" style="
+    text-align: center;
+">
+    <img src="https://hinhgaixinh.com/wp-content/uploads/2021/06/20210516-vuong-khanh-ly-1.jpg" style="
+    width: 50%;
+    border-radius: 40px;
+">
+    <div style="
+    margin-top: 2;
+">May a Nguyen</div>
+		</div>
+
+
+
+</div><div style="
+    margin-top: 50px;
+    width: 420px;
+    height: 50px;
+    background-color: yellow;
+">
+
+    <div style="font-size: 20px;padding: 10px;">CHỨNG NHẬN HOÀN THÀNH KHÓA HỌC</div></div><div class="row" style="
+    margin-top: 30px;
+">
+
+
+<div class="col-md-12" style="
+    text-align: center;
+">
+    <div>- Bạn sẽ được giấy chứng nhận khi hoàn thành khóa học giao tiếp tiếng Anh với phim
+Friends </div><img src="image\9.png" style="width: 80%;padding-top: 40px;">
+		</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="container" style="
+		margin-top: 30px;
+		margin-bottom: 100px;
+	">
+    <div style="
+    font-size: 30px;
+    font-weight: bold;
+">Bài viết hay</div>
+	<div class="row"><div class="cach col-6 col-sm-3">
+		<img src="https://www.hvu.edu.vn/file/1548236183/top%205%20sv%20ti%C3%AAu%20bi%E1%BB%83u%20HVU%202020%20(2).jpg" style="
+    width: 100%;
+">
+<div style="width:100%;height:50px;background-color:white;">
+    <div style="
+    font-weight: bold;
+">Trở thành sinh viên xuất sắc</div>
+    <div style="
+">
+        
+         <div>10 cách để trở thành người của công chúng. Sử dụng các công cụ trên mạng internet hiệu quẩ</div>
+    </div>
+
+</div></div>
+		<div class="cach col-6 col-sm-3">
+		<img src="https://htt.edu.vn/wp-content/uploads/2016/09/daubep.jpg" style="
+    width: 100%;
+">
+<div style="width:100%;height:50px;background-color:white;">
+    <div style="
+    font-weight: bold;
+">Học chế biến món ăn với đầu bếp là người nước ngoài</div>
+    <div style="
+">
+        
+         <div>Lên danh sách các món ăn và làm những món ăn mà mình thích</div>
+    </div>
+
+</div></div><div class="cach col-6 col-sm-3">
+		<img src="https://vcdn-vnexpress.vnecdn.net/2021/09/29/english-3697-1632913961.jpg" style="
+    width: 100%;
+">
+<div style="width:100%;height:50px;background-color:white;">
+    <div style="
+    font-weight: bold;
+">Cách nhanh nhất để giỏi tiếng Anh</div>
+    <div style="
+">
+        
+         <div>A complete guide to starting a small business online</div>
+    </div>
+
+</div></div><div class="cach col-6 col-sm-3">
+		<img src="https://tdtdecor.vn/wp-content/uploads/2021/04/thiet-ke-cua-hang-may-tinh-34.jpg" style="
+    width: 100%;
+">
+<div style="width:100%;height:50px;background-color:white;">
+    <div style="
+    font-weight: bold;
+">Shop đồ của bạn</div>
+    <div style="
+">
+        
+         <div>Click vào đây để mua sắm</div>
+    </div>
+
+</div></div></div>
+	
+
+
+</div>
+
+
+<div class="container" style="
+    margin-bottom: 60px;
+"></div>
+
+<div class="row" style="
+    margin-top: 30px;
+">
+
+
+<div class="col-md-12" style="
+    text-align: center;
+">
+    <div style="
+    font-size: 50px;
+    color: #a1a168;
+">Các gói học phí bạn có thể lựa chọn</div><img src="image\goicuoc-01.png" style="width: 80%;padding-top: 40px;">
+		</div>
+
+
+
+</div><div class="container" style="
+"><div class="row" style="margin-top: 100px;background: url(https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png) lightblue 2px no-repeat;"><div class="col-12 col-xl-6" style="
+    color: white;
+    "><div style="
+    font-size: 40px;
+    padding: 20px;
+">Ứng tuyển ngay vào các công ty lớn và tập đoàn nước ngoài</div>
+<div class="form-group" style="
+		display: flex;
+		margin: 30px;
+	">
+		
+		<button type="button" class="btn btn-info" style="margin-left: 1px;color: #ffffff;background-color: #19A463;width: 150px;border: #19A463;font-size: 20px;">Get start</button> </div></div></div></div>
+
+
+<div style="width:100%;background-color: #0695d9;">
+    <div class="container" style="">
+    <div class="row" style="
+    padding-top: 30px;
+    margin-top: 40px;
+"><div class="xd col-12 col-xl-4" style="
+    color: white;
+">
+    <div style="
+">Trung tâm ngoại ngữ và tin học cooc.vn</div>
+    <div>123 Lạch Tray, Ngô Quyền, Hải Phòng</div>
+    <div>Điện thoại : 0389.788.391</div>
+    <div>Email: saleup4@gmail.com</div>
+<img src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=5762793b-e91d-4023-88a4-8e930fe3a457">
+
+</div>
+<div class="xd col-12 col-xl-4" style="
+    color: white;
+">
+    <div>HỖ TRỢ KHÁCH HÀNG</div>
+    <div>CHÍNH SÁCH VÀ QUY ĐỊNH CHUNG</div>
+    <div>QUY ĐỊNH VỀ HÌNH THỨC THANH TOÁN</div>
+    <div>CHÍNH SÁCH VẬN CHUYỂN VÀ GIAO NHẬN</div><div>CHÍNH SÁCH ĐỔI TRẢ VÀ HOÀN TIỀN</div>
+<img src="https://cdnstepup.r.worldssl.net/wp-content/uploads/2020/08/thong-bao-website-voi-bo-cong-thuong_grande-300x114.png">
+
+</div><div class="xd col-12 col-xl-4" style="
+    color: white;
+">
+    <div>CHUYỂN KHOẢN</div>
+    <div>Ngân hàng agribank</div>
+    <div>Số tk : 2109205230184</div>
+    <div>Chủ tài khoản : Nguyễn Khắc Minh</div>
+<img src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=5762793b-e91d-4023-88a4-8e930fe3a457">
+
+</div>
+</div>
+    
+</div>
+
+    
+    
+    
+    
+    
+
+</div>
+
+
+
+sss<div style="position: absolute; top: 0px;"></div></body><div style="position: absolute; top: 0px;"></div></html>

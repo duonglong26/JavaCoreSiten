@@ -1,0 +1,6 @@
+
+V
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(êäƒ[
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿Õ»ùÿÿÿÿ8íâø©„0
+i
+java:S2095"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(à”ô…úÿÿÿÿ
