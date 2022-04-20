@@ -1,8 +1,10 @@
 package com.nduonglong02.unit06.program;
 
+import java.io.Serializable;
+
 import static java.util.Arrays.stream;
 
-public class PrintMessage implements Runnable {
+public class PrintMessage implements Runnable, Serializable {
 
     private String message;
 
@@ -25,4 +27,10 @@ public class PrintMessage implements Runnable {
         });
     }
 
+    @Override
+    public String toString() {
+        return "PrintMessage{" +
+                "message='" + message + '\'' +
+                '}';
+    }
 }

@@ -97,7 +97,5 @@ d
 4src/com/nduonglong02/unit04/program/AwtExample1.java,e\0\e0e0d6ea39c9f24a1503ac9ee18c9176fa2497b4
 k
 ;src/com/nduonglong02/unit06/program/ExecuteServiceTest.java,4\8\483d105feb61e5db483425d6f56cb2e3b3c50a4c
-e
-5src/com/nduonglong02/unit06/program/PrintMessage.java,d\f\df255643e30b7685a474978290a25c3214988e98
 k
 ;src/com/nduonglong02/unit06/program/SimpleThreadSample.java,a\0\a0620725876cf306b7e110c33ee9e4ce8827d5b7
