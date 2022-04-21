@@ -1,0 +1,8 @@
+
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‹”Ö
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿Õ»ùÿÿÿÿ8ê¾›¸„0
+k
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(À£°âûÿÿÿÿ
+d
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ŸÌÓÙ

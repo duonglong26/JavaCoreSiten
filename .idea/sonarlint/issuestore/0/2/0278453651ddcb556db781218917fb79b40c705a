@@ -1,0 +1,11 @@
+
+P
+java:S4719":Replace Charset.forName() call with StandardCharsets.UTF_8(ÆÔÚ
+V
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(êäƒ[
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾–¯ûÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÂëÆùÿÿÿÿ8ŞÏç©„0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«†’˜øÿÿÿÿ8¯ê©„0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿Õ»ùÿÿÿÿ8±ãø©„0
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¹Àèúÿÿÿÿ

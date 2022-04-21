@@ -133,3 +133,23 @@ e
 5src/com/nduonglong02/unit07/IO/FileOutputExample.java,6\a\6aa4d2125515e52b90f592c44ddf977b54ac13de
 `
 0src/com/nduonglong02/unit07/NIO/PathExample.java,4\6\466d312ee46a5d71a85a4c828839216edefb0d6f
+j
+:src/com/nduonglong02/unit08/program/HttpHeaderExample.java,2\6\264b2a59c417a46ebe0e473ac53dea7713d0016d
+m
+=src/com/nduonglong02/unit08/program/URLConnectionExample.java,7\c\7c95c66a4d29d4e1e517540a6cd58389021ddc7b
+c
+3src/com/nduonglong02/unit08/program/URLExample.java,2\5\25fc142a44ca21156b35deafcff73aec3283e816
+h
+8src/com/nduonglong02/unit07/IO/SearchFileNIOExample.java,0\2\0278453651ddcb556db781218917fb79b40c705a
+f
+6src/com/nduonglong02/unit07/IO/ReadFileNIOExample.java,8\d\8dc21d7dc37f9edb72693eba90b25d97f41043c2
+f
+6src/com/nduonglong02/unit07/IO/ReaderWriteExample.java,f\5\f536f14c58872a65bc0ba9cf2eb4ffc3bf502004
+g
+7src/com/nduonglong02/unit07/IO/RandomAccessExample.java,c\d\cda047d6751c0a786d4c64085ad0713767ff594c
+g
+7src/com/nduonglong02/unit07/IO/ObjectWriterExample.java,8\0\80fe917ebb720dd58864cec221ea85471cb196e2
+n
+>src/com/nduonglong02/unit08/program/HttpConnectionExample.java,0\9\09bfcb25ff82c975968eec1de947163dfcf62efc
+9
+	test.html,5\0\5017803b9ee9b00cc52db4a18a64b71cfc076fd7

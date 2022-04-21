@@ -1,0 +1,11 @@
+
+V
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(êäƒ[
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ù·İ´
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ù·İ´
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿Õ»ùÿÿÿÿ8ğÕš¸„0
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(‰•«´ıÿÿÿÿ
